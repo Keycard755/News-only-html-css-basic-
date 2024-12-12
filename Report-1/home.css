@@ -1,0 +1,145 @@
+
+*{
+    /* border: 1px sol/id black; */
+    padding: 0;
+}
+body {
+    background-color: rgb(238, 234, 234);
+}
+
+#box-container {
+    display:flex;
+    /* position: relative; */
+    margin-top: 80px;
+    /* gap: 20px; */
+    justify-content: space-between;
+    width: 100%;
+}
+
+#box1 {
+    margin-left: 5%;
+    margin: 20px 0 0 5% ;
+    width: 40%;
+    background-color: #e9e2e2;
+    height: fit-content;
+    box-shadow: 0px 0px 10px 0px black;
+}
+#box1 h2 {
+    margin: 10px auto;
+    width: 100%;
+    text-align: center;
+}
+#myprofilepic {
+    width: 70px;
+    border-radius: 50%;
+    display: block;
+    margin: 2px auto;
+}
+#box2 {
+    margin: 20px 2%;
+    width: 100% ;
+    background-color: #e9e2e2;
+
+    /* box-shadow: 0px 0px 10px 0px black; */
+}
+#box2 #template {
+    margin-bottom: 10px;
+   padding: auto;
+}
+#box2 input {
+    margin-bottom: 10px;
+}
+
+#box2 button i {
+    margin: 5px;
+}
+
+.post {
+    background-color: #e9e2e2;
+    box-shadow: 0px 0px 10px 0px black;
+}
+.post button {
+    margin-bottom: 2%;
+}
+.upload-1{
+    background-color: #e9e2e2;
+    box-shadow: 0px 0px 10px 0px black;
+}
+#box3 {
+    margin:20px 5% 0 0;
+    width: 40%;
+    background-color: #e9e2e2;
+    box-shadow: 0px 0px 10px 0px black;
+    height: fit-content;
+}
+#box3 p {
+    text-align: center;
+}
+#box3 h3 {
+    text-align: center;
+}
+#box3 img {
+    display: block;
+    width: 80%;
+    margin: 10px auto;
+}
+#events-1 {
+    font-size: 12px; 
+    margin-bottom: 50px;
+}
+#events-1 span {
+    font-size: 12px;
+    font-weight: 700;
+}
+
+#lineprofile {
+    border: 1px solid black;
+    margin: 5px;
+}
+.myprofile {
+    display: flex;
+    margin-left: 20px;
+    gap: 10px ;
+    margin-top: 5px;
+}
+.center {
+    margin: auto;
+}
+.imgs {
+    width: 50px;
+    border-radius: 50%;
+    margin: 5px;
+}
+.uploads {
+    margin-top: 15px;
+}
+.subupload {
+    display: flex;
+    align-items: center;
+}
+.gap-upload {
+    margin: 2%;
+}
+#template {
+}
+
+.upload-time-1 {
+    margin-left: auto;
+}
+.imageupload{
+    display: block;
+    width: 300px;
+    margin: auto;
+}
+.likecomment {
+    display: block;
+    margin: auto;
+    width:fit-content
+}
+.likecomment button {
+    width: 100px;
+    margin: 5px;
+}
+.dates {
+    font-size:10px;
+}
